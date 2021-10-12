@@ -3,11 +3,11 @@
 # pylint: disable=too-few-public-methods
 """Settings for the PredictResult and PredictTSResult"""
 import json
-
 import logging
+
 from decanter.core.core_api import CoreBody
-from decanter.core.enums.evaluators import Evaluator
 from decanter.core.enums import check_is_enum
+from decanter.core.enums.evaluators import Evaluator
 
 logger = logging.getLogger(__name__)
 

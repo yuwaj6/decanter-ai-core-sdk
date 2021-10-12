@@ -3,7 +3,6 @@
 Decorators used by method.
 """
 import logging
-
 from functools import wraps
 
 from decanter.core.extra import CoreStatus

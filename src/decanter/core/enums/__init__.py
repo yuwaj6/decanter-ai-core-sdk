@@ -1,9 +1,10 @@
 """Init jobs package"""
-from .evaluators import Evaluator
 from .algorithms import Algo
-from .time_units import TimeUnit
-from .numerical_group_by_methods import NumericalGroupByMethod
 from .categorical_group_by_method import CategoricalGroupByMethod
+from .evaluators import Evaluator
+from .numerical_group_by_methods import NumericalGroupByMethod
+from .time_units import TimeUnit
+
 
 # checks if enum is enumerated in Enum
 # Throws AttributeError if not in Enum; returns enum as str otherwise

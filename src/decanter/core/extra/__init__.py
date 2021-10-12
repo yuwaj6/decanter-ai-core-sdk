@@ -1,2 +1,2 @@
 """Init extra package"""
-from .const import CoreStatus, CoreKeys
+from .const import CoreKeys, CoreStatus

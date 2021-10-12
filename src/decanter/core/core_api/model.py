@@ -10,10 +10,9 @@ server or uploading form local zip fils.
 import logging
 
 from decanter.core.core_api import CoreAPI
-from decanter.core.extra import CoreStatus, CoreKeys
+from decanter.core.extra import CoreKeys, CoreStatus
 from decanter.core.extra.decorators import block_method
 from decanter.core.extra.utils import check_response
-
 
 logger = logging.getLogger(__name__)
 

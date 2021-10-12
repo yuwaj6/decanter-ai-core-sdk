@@ -4,9 +4,10 @@ Run; python -m examples.time_series_example
 import os
 
 from decanter import core
-from decanter.core.core_api import TrainTSInput, PredictTSInput, SetupInput
+from decanter.core.core_api import PredictTSInput, SetupInput, TrainTSInput
 from decanter.core.enums.algorithms import Algo
 from decanter.core.enums.evaluators import Evaluator
+
 # from decanter.core.jobs import DataUpload, Experiment
 
 

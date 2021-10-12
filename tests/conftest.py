@@ -8,12 +8,10 @@ import pytest
 import responses
 
 from decanter.core import Context, CoreClient
-from decanter.core.core_api import Model, MultiModel,\
-    TrainInput, TrainTSInput,\
-    PredictInput, PredictTSInput
+from decanter.core.core_api import (Model, MultiModel, PredictInput,
+                                    PredictTSInput, TrainInput, TrainTSInput)
 from decanter.core.extra import CoreStatus
 from decanter.core.jobs import DataUpload, Experiment, ExperimentTS
-
 
 USR = 'test-usr'
 PWD = 'test-pwd'

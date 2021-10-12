@@ -7,7 +7,7 @@ import os
 import pandas as pd
 
 from decanter import core
-from decanter.core.core_api import TrainInput, PredictInput, SetupInput
+from decanter.core.core_api import PredictInput, SetupInput, TrainInput
 from decanter.core.enums.algorithms import Algo
 from decanter.core.enums.evaluators import Evaluator
 

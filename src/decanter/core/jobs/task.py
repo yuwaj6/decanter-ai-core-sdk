@@ -6,14 +6,14 @@ Return the result to Job.
 """
 import abc
 import logging
-
 from functools import partial
 
 from decanter.core import Context
 from decanter.core.core_api import CoreAPI
-from decanter.core.extra import CoreStatus, CoreKeys
-from decanter.core.extra.utils import check_response, gen_id, isnotebook, \
-    exception_handler, exception_handler_for_class_method
+from decanter.core.extra import CoreKeys, CoreStatus
+from decanter.core.extra.utils import (check_response, exception_handler,
+                                       exception_handler_for_class_method,
+                                       gen_id, isnotebook)
 
 try:
     if isnotebook():

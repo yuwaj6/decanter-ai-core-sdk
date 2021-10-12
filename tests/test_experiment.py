@@ -3,12 +3,12 @@
 """Test related method and functionality of Experiemt."""
 import asyncio
 
-import responses
 import pytest
+import responses
 
 from decanter.core import Context
-from decanter.core.core_api import TrainInput, TrainTSInput,\
-                                    PredictInput, PredictTSInput
+from decanter.core.core_api import (PredictInput, PredictTSInput, TrainInput,
+                                    TrainTSInput)
 from decanter.core.extra import CoreStatus
 
 fail_conds = [(stat, res) for stat in CoreStatus.FAIL_STATUS for res in [None, 'result']]

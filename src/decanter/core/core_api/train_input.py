@@ -5,14 +5,16 @@
 # pylint: disable=no-member
 """Settings for the Model Training and Time Series MultiModel Training."""
 import json
-from decanter.core.core_api import CoreAPI
-from decanter.core.core_api import CoreBody
-from decanter.core.enums.algorithms import Algo
-from decanter.core.enums.evaluators import Evaluator
-from decanter.core.enums.time_units import TimeUnit
-from decanter.core.enums.numerical_group_by_methods import NumericalGroupByMethod
-from decanter.core.enums.categorical_group_by_method import CategoricalGroupByMethod
+
+from decanter.core.core_api import CoreAPI, CoreBody
 from decanter.core.enums import check_is_enum
+from decanter.core.enums.algorithms import Algo
+from decanter.core.enums.categorical_group_by_method import \
+    CategoricalGroupByMethod
+from decanter.core.enums.evaluators import Evaluator
+from decanter.core.enums.numerical_group_by_methods import \
+    NumericalGroupByMethod
+from decanter.core.enums.time_units import TimeUnit
 
 
 class TrainInput:

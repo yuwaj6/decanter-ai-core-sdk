@@ -1,6 +1,6 @@
 """Init jobs package"""
-from .data_upload import DataUpload
 from .data_setup import DataSetup
-from .experiment import Experiment, ExperimentTS, ExperimentCluster
-from .predict_result import PredictResult, PredictTSResult
+from .data_upload import DataUpload
+from .experiment import Experiment, ExperimentCluster, ExperimentTS
 from .job import Job
+from .predict_result import PredictResult, PredictTSResult

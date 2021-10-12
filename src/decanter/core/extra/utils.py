@@ -1,8 +1,9 @@
 """
 Functions support other modules.
 """
-import uuid
 import logging
+import uuid
+
 
 def check_response(response, key=None):
     """CHeck the api response.

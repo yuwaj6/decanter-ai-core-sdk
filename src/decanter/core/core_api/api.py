@@ -10,8 +10,8 @@
 import logging
 
 import requests
-from requests_toolbelt import MultipartEncoder
 from requests.auth import HTTPBasicAuth
+from requests_toolbelt import MultipartEncoder
 
 import decanter.core as core
 

@@ -9,8 +9,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-from decanter.core.enums.evaluators import Evaluator
 from decanter.core.enums import check_is_enum
+from decanter.core.enums.evaluators import Evaluator
+
 
 def show_model_attr(metric, score_types, exp):
     """Show all models attribute in Experiment

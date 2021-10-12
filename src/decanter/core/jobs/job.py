@@ -12,7 +12,6 @@ from decanter.core.core_api import CoreAPI
 from decanter.core.extra import CoreStatus
 from decanter.core.extra.decorators import block_method
 
-
 logger = logging.getLogger(__name__)
 
 

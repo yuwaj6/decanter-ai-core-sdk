@@ -5,15 +5,17 @@ Experiment and ExperimentTS handles the training of models on Decanter Core serv
 and stores Experiment results in its attributes.
 """
 import logging
+
 import numpy as np
+
 from decanter.core.core_api import CoreAPI, Model, MultiModel
+from decanter.core.enums import check_is_enum
+from decanter.core.enums.evaluators import Evaluator
 from decanter.core.extra import CoreStatus
 from decanter.core.extra.decorators import update
 from decanter.core.extra.utils import check_response, gen_id
 from decanter.core.jobs.job import Job
-from decanter.core.jobs.task import TrainTask, TrainTSTask, TrainClusterTask
-from decanter.core.enums.evaluators import Evaluator
-from decanter.core.enums import check_is_enum
+from decanter.core.jobs.task import TrainClusterTask, TrainTask, TrainTSTask
 
 logger = logging.getLogger(__name__)
 

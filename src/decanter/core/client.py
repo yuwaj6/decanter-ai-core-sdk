@@ -6,11 +6,11 @@ import logging
 import pandas as pd
 
 from decanter.core import Context
-from decanter.core.jobs import DataUpload, DataSetup,\
-    Experiment, ExperimentTS, ExperimentCluster,\
-    PredictResult, PredictTSResult
-from decanter.core.enums.evaluators import Evaluator
 from decanter.core.enums import check_is_enum
+from decanter.core.enums.evaluators import Evaluator
+from decanter.core.jobs import (DataSetup, DataUpload, Experiment,
+                                ExperimentCluster, ExperimentTS, PredictResult,
+                                PredictTSResult)
 
 logger = logging.getLogger(__name__)
 
